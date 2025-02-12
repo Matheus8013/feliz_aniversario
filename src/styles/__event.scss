@@ -37,11 +37,11 @@
     flex-direction: row-reverse;
 }
 
-.sobre {
+.black--to--purple {
     background-image: linear-gradient($cor-primaria, $cor-secundaria);
 }
 
-.teste {
+.purple--to--black {
     background-image: linear-gradient($cor-secundaria, $cor-primaria);
 }
 
