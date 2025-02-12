@@ -1,0 +1,27 @@
+.info-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 32px;
+    border-radius: 10px;
+    border: 5px dotted black;
+
+    &__info {
+        display: flex;
+        justify-content: space-between;
+        max-width: 300px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 640px) {
+    .info-bar {
+
+        &__info {
+            max-width: 200px;
+        }
+    }
+
+}

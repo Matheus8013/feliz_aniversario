@@ -1,0 +1,28 @@
+.hero {
+    display: flex;
+    align-items: center;
+    position: relative;
+    min-height: 90vh;
+
+
+    &::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background-image: url(../images/new-years-eve-1283521_1920.jpg);
+        background-size: cover;
+        background-position: bottom;
+        z-index: -1;
+        opacity: 0.9;
+    }
+
+    &__text {
+        color: #fff;
+        text-align: center;
+        font-size: 24px;
+        margin-bottom: 16px;
+        font-weight: bold;
+        text-decoration: wavy;
+        font-style: italic;
+    }
+}
