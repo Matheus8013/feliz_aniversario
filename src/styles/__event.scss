@@ -60,8 +60,7 @@
 
 @media (max-width: 1024px) {
     .event {
-        padding: 0 0 16px 0;
-
+        padding: 36px;
         .container {
             flex-direction: column;
         }
@@ -69,14 +68,8 @@
         .left .container {
             flex-direction: row;
         }
-
-        .event__details {
-            &__title {
-                text-align: center;
-                padding-top: 24px;
-            }
-        }
     }
 }
+
 
 

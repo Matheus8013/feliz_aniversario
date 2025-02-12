@@ -11,16 +11,30 @@
     &__info {
         display: flex;
         justify-content: space-between;
-        max-width: 300px;
-        width: 100%;
+        gap: 40px;
+
+        &__item {
+            font-size: 14px;
+            color: #000;
+
+            b {
+                font-size: 18px;
+                display: block;
+            }
+        }
     }
 }
 
 @media (max-width: 640px) {
     .info-bar {
-
+        display: block;
         &__info {
-            max-width: 200px;
+            display: block;
+            text-align: center;
+
+            &__item {
+                margin-bottom: 24px;
+            }
         }
     }
 
